@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="grl-container">
+
+        <section class="card-container">
+
+            <div class="title">
+                <h1>Score-Keeper</h1>
+                <h4>Ping-Pong</h4>
+            </div>
+
+            <div class="img-container">
+                <img src="pingpong.jpg" alt="Ping-Pong Table" id="img">
+            </div>
+
+            <div class="counter-container">
+                <span id="counterP1">0</span>
+                <span class="counter-txt">to</span>
+                <span id="counterP2">0</span>
+            </div>
+
+            <div class="text-container">
+                <span>Playing To</span>
+                <select name="topScore" id="topScore">
+                    <option value="5">5</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="15">15</option>
+                </select>
+                <p>Use the buttons below to keep score</p>
+            </div>
+
+            <div class="btns-container">
+                <button id="btnP1" class="btns">+1 Player 1</button>
+                <button id="btnP2" class="btns">+1 Player 2</button>
+                <button id="reset" class="btns">Reset</button>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
